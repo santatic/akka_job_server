@@ -1,0 +1,12 @@
+net.ipv4.netfilter.ip_conntrack_max = 32768
+net.ipv4.tcp_tw_recycle = 0
+net.ipv4.tcp_tw_reuse = 0
+net.ipv4.tcp_orphan_retries = 1
+net.ipv4.tcp_fin_timeout = 25
+net.ipv4.tcp_max_orphans = 8192
+net.ipv4.ip_local_port_range = 32768    61000
+
+
+http://stackoverflow.com/questions/410616/increasing-the-maximum-number-of-tcp-ip-connections-in-linux
+http://serverfault.com/questions/10852/what-limits-the-maximum-number-of-connections-on-a-linux-server
+https://easyengine.io/tutorials/linux/sysctl-conf/
